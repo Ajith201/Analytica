@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytica", "Analytica\Analytica.csproj", "{9399BFB5-E425-E2BD-C88B-E25CAF48590B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9399BFB5-E425-E2BD-C88B-E25CAF48590B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9399BFB5-E425-E2BD-C88B-E25CAF48590B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9399BFB5-E425-E2BD-C88B-E25CAF48590B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9399BFB5-E425-E2BD-C88B-E25CAF48590B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C422F32-ADDA-496B-B16E-1BF7B496B15A}
+	EndGlobalSection
+EndGlobal

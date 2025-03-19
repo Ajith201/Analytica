@@ -1,0 +1,6 @@
+@Analytica_HostAddress = http://localhost:5290
+
+GET {{Analytica_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
