@@ -1,0 +1,65 @@
+/* Header Container */
+.header {
+  width: 100%;
+  padding: 20px 40px;
+  background: #ffffffcc;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Desktop navigation */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+/* Mobile menu icon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  width: 25px;
+  height: 3px;
+  background: #333;
+  border-radius: 3px;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Hidden for mobile – use state to toggle if needed */
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}

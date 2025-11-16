@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section with Moving Background */
+.hero {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 18s infinite linear;
+}
+
+@keyframes slideShow {
+    0%   { background-image: url("./assets/background_img1.avif"); }
+    33%  { background-image: url("./assets/background_img2.avif"); }
+    66%  { background-image: url("./assets/background_img3.avif"); }
+    100% { background-image: url("./assets/background_img4.avif"); }
+}
+
+/* Gradient Overlay */
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.45);
+    top: 0;
+    left: 0;
+}
+
+/* Text + Search Bar */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+/* Search Bar */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input {
+    width: 350px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
